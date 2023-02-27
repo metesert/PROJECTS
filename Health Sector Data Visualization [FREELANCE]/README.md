@@ -9,4 +9,7 @@ Healtcare Sector
 
 ## Used Technologies
 
-![83964957-ece37580-a8b8-11ea-909d-2a5a00292f73](https://user-images.githubusercontent.com/83639803/221619195-9ebb4102-2e74-4adf-9bc2-a0c7f7235f26.png)
+![download](https://user-images.githubusercontent.com/83639803/221620163-0dc5b4e4-7d56-4f25-b6da-8eab110ccc10.png =800x300)
+![Plotly-logo](https://user-images.githubusercontent.com/83639803/221620177-c8d123e5-a49e-4488-b2e6-2be47a018ac6.png =800x300)
+![Python-logo-notext svg](https://user-images.githubusercontent.com/83639803/221620189-d18391e0-0c0f-4255-8466-99f086ecf35a.png =800x300)
+
