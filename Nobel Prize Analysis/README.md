@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/83639803/222931471-2786cd70-32d0-4135-bd30-c85b74f2707c.png)
+
 
 # Used Technologies
 
@@ -43,8 +45,6 @@
 
 - Finish Project.
   
-## Screenshots
-
 
 
   
