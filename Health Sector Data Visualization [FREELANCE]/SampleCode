@@ -1,0 +1,25 @@
+import plotly.express as px
+
+df_countries = df_data.groupby(['Country', 'Job'], as_index=False)['Salary'].median()
+
+df_median = df_data[df_data['Job'] == 'Median']
+
+# Dünya haritasını oluştur
+world_map = px.choropleth(df_countries,
+                          locations='Country',
+                          locationmode='country names',
+                          color='Salary',
+                          hover_name='Job',
+                          color_continuous_scale='matter',
+                          title='Medians of Jobs',
+                          range_color=[50000, 500000])  # Renk skalası aralığını belirtin
+
+
+# Renk skalasını güncelle
+world_map.update_coloraxes(colorbar_title='Salary',
+                           colorbar_tickvals=[50000, 500000],
+                           colorbar_ticktext=['$50,000', '$200,000'],
+                           colorbar_ticks='outside')
+
+# Haritayı görüntüle
+world_map.show()
